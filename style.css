@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.stopwatch{
+  display: flex;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background: url(https://wallpaperaccess.com/full/7100601.jpg);
+}
+
+.container {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+  #display{
+    font-size: 86px;
+    font-weight: lighter;
+    color: lightblue;
+    text-shadow: #371D75 0px 0px 25px, aqua 0px 0px 30px;
+    width: 410px;
+}
+  
+  .bottomPart{
+    width: 100%;
+    height: 100px;
+    padding-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  .btns{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  .btns button{
+    width: 90px;
+    height: 60px;
+    background-color: lightblue;
+    color: black;
+    font-size: 22px;
+    border: none;
+    border-radius: 10%;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    box-shadow: #371D75 0px 0px 10px, aqua 0px 0px 10px;;
+}
+
+.btns button:hover{
+  background: black;
+  color: lightblue;
+}
+
+#laps{
+    width: 350px;
+    height: 250px;
+    color: lightblue;
+    padding: 30px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.lap_item{
+  margin: 10px;
+}
+
+
+.media-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.media-icons a{
+  position: relative;
+  color: lightblue;
+  font-size: 25px;
+  transition: 0.3s;
+  padding-bottom: 20px;
+  transition-property: transform;
+}
+
+.media-icons a:not(:last-child){
+  margin-right: 60px;
+}
+
+.media-icons a:hover{
+  transform:  scale(1.5);
+}
+
+
+/* Footer section */
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 70px 0;
+  background: url(https://wallpaperaccess.com/full/7100601.jpg);
+}
+
+.footer h4{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.footer p{
+  font-family: 'Cinzel';
+  color: lightblue;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.icons .fa{
+  color: lightblue;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px;
+
+}
+
+.fa-heart-o{
+  color: lightblue;
+
+}
+
+.footer a{
+  color: lightblue;
+}
